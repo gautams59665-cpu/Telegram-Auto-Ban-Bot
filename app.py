@@ -4,16 +4,16 @@ from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 
 # API credentials
 # Replace these placeholders with your own API ID and Hash from my.telegram.org
-api_id = 'YOUR_API_ID'
-api_hash = 'YOUR_API_HASH'
+api_id = '32842526'
+api_hash = '7506e38d01e409746924683dbeb06ca5'
 
 # Bot token
 # Replace this placeholder with your bot token obtained from BotFather
-bot_token = 'YOUR_BOT_TOKEN'
+bot_token = '9142878217:AAETb-dSXqsQo1ZPKrWEWw6R2ld-6rOMY2U'
 
 # Channel ID
 # Replace this with the ID of the channel where the bot will operate
-channel_id = -1001510842176
+channel_id = -1004256869807
 
 # Create the client and connect
 client = TelegramClient('bot_session', api_id, api_hash).start(bot_token=bot_token)
